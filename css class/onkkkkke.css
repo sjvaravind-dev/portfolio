@@ -1,0 +1,10 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 200px;
+}
+
+.box{
+    background: rgb(125, 94, 10);
+    padding: 30px;
+}

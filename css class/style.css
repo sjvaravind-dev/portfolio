@@ -1,0 +1,103 @@
+
+
+.parent{
+    background-color: aliceblue;
+    padding:10px;
+    font-size:25px;
+    display:grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows:100px 150px 100px;
+    grid-gap:5px;
+    height: 400vh;
+
+    justify-content:center;
+
+    align-content:center;
+
+    
+
+    
+    
+}
+
+
+.child1{
+    background-color: aqua;
+   grid-column: 1/span 3;
+    
+}
+
+.child2{
+    background-color:blue;
+    
+}
+
+.child3{
+    background-color:chartreuse;
+    grid-template-columns:100px;
+    grid-column-start: 2;
+    grid-column-end:3;
+}
+
+
+.child4{
+    background-color:darkmagenta
+}
+
+.child5{
+    background-color:fuchsia;
+}
+
+.child6{
+    background-color:indianred;
+    justify-self:center;
+    align-self:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
